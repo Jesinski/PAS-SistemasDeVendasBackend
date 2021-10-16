@@ -1,4 +1,4 @@
-package com.bcopstein.negocio.entidades;
+package com.bcopstein.sistemasDeVenda.negocio.entidades;
 
 public class Produto {
   private int codigo;

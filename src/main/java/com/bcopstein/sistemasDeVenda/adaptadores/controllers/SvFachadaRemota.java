@@ -1,10 +1,10 @@
-package com.bcopstein.adaptadores.controllers;
+package com.bcopstein.sistemasDeVenda.adaptadores.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bcopstein.negocio.entidades.ItemCarrinho;
-import com.bcopstein.negocio.entidades.Produto;
+import com.bcopstein.sistemasDeVenda.negocio.entidades.ItemCarrinho;
+import com.bcopstein.sistemasDeVenda.negocio.entidades.Produto;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
