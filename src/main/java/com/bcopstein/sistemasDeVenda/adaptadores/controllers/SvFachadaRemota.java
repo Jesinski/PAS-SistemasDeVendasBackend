@@ -43,6 +43,8 @@ public class SvFachadaRemota {
   @CrossOrigin(origins = "*")
   public boolean podeVender(@RequestParam final Integer codProd,
                             @RequestParam final Integer qtdade) {
+
+                            
     final boolean disponivel =
         produtos.stream().anyMatch(p -> p.getCodigo() == codProd && p.getQtdade() >= qtdade);
     return disponivel;
